@@ -1,0 +1,92 @@
+/* Estilo para os itens da lista de serviços */
+ul li {
+    color: #ffb3e6; /* Define a cor do texto e do marcador para rosa claro */
+    margin-bottom: 5px; /* Adiciona um pequeno espaço abaixo de cada item */
+}
+/* Estilo <p> */
+p {
+    color:rgb(100, 0, 38); /* define a cor de tudo que é <p> */
+
+    margin-bottom: 5px;
+}
+/* Estilo para todo o corpo da página */
+
+body {
+    font-family: 'Arial', sans-serif; /* Define a fonte principal de todo o texto. */
+    line-height: 1.6;               /* Adiciona espaço entre as linhas para facilitar a leitura. */
+    margin: 0;                      /* Remove as margens externas padrão do navegador. */
+    padding: 0;                     /* Remove os espaços internos padrão. */
+    background-color: #1a1a1a;      /* A cor preta de fundo. */
+    color: #cccccc;                 /* A cor cinza do texto, que contrasta com o fundo. */
+}
+
+/* Estilo para centralizar o conteúdo da página */
+.container {
+    max-width: 960px; /* Impede que o conteúdo fique muito largo em telas grandes. */
+    margin: auto;     /* A "mágica" que centraliza o contêiner na horizontal. */
+    padding: 20px;    /* Adiciona espaço nas laterais e no topo do contêiner. */
+    padding-bottom: 40px; /* Adiciona espaço extra no final da página. */
+}
+
+/* Estilo para os títulos principais */ 
+h1 {
+    text-align: center; /* Centraliza o texto do título principal. */
+    color: #cccccc;     /* Define a cor cinza do título. */
+    padding: 20px 0;    /* Adiciona um espaçamento acima e abaixo do título. */
+}
+
+/* Estilo para os títulos de seção */
+h2 {
+    text-align: center; /* Centraliza o texto de todos os títulos de seção. */
+    color: #cccccc;     /* Define a cor cinza dos títulos de seção. */
+    margin-top: 40px;   /* Adiciona um espaço extra acima de cada título de seção. */
+}
+
+/* Estilo para a seção da equipe, usando Flexbox */
+.equipe-flex {
+    display: flex;         /* Transforma o contêiner em flexível, alinhando os itens lado a lado. */
+    justify-content: center;   /* Alinha os cards da equipe ao centro da linha. */
+    gap: 20px;             /* Adiciona 20px de espaço entre cada card. */
+    flex-wrap: wrap;       /* Permite que os cards quebrem para a linha de baixo se a tela for pequena. */
+}
+
+/* Estilo para cada "card" de membro da equipe */
+.membro-equipe {
+    text-align: center;      /* Centraliza o texto e a imagem dentro de cada card. */
+    background-color: #2c2c2c;/* Cor de fundo de cada card. */
+    padding: 20px;           /* Espaço interno dentro de cada card. */
+    border-radius: 8px;      /* Arredonda os cantos do card. */
+    flex: 1;                 /* Faz com que os cards dividam o espaço disponível igualmente. */
+    max-width: 300px;        /* Limita a largura de cada card para não ficarem muito grandes. */
+}
+
+/* Estilo para a imagem dentro dos cards da equipe */
+.membro-equipe img {
+    width: 250px;       /* Define a largura da foto. */
+    height: 250px;      /* Define a altura da foto. */
+    object-fit: cover;  /* Garante que a imagem preencha o tamanho sem ser distorcida. */
+}
+
+/* Estilo para a seção da instalações, usando Flexbox */
+.instalacoes-flex {
+    display: flex;         /* Transforma o contêiner em flexível, alinhando os itens lado a lado. */
+    justify-content: center;   /* Alinha os cards da equipe ao centro da linha. */
+    gap: 20px;             /* Adiciona 20px de espaço entre cada card. */
+    flex-wrap: wrap;       /* Permite que os cards quebrem para a linha de baixo se a tela for pequena. */
+}
+/* Estilo para cada "card" de instalações */
+.instalacoes-fisicas {
+    text-align: center;      /* Centraliza o texto e a imagem dentro de cada card. */
+    background-color: #2c2c2c;/* Cor de fundo de cada card. */
+    padding: 20px;           /* Espaço interno dentro de cada card. */
+    border-radius: 8px;      /* Arredonda os cantos do card. */
+    flex: 1;                 /* Faz com que os cards dividam o espaço disponível igualmente. */
+    max-width: 300px;        /* Limita a largura de cada card para não ficarem muito grandes. */
+}
+
+/* Estilo para a imagem dentro dos cards de instalações  */
+.instalacoes-fisicas img {
+    width: 250px;       /* Define a largura da foto. */
+    height: 250px;      /* Define a altura da foto. */
+    object-fit: cover;  /* Garante que a imagem preencha o tamanho sem ser distorcida. */
+}
